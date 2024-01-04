@@ -3,6 +3,8 @@
 Synchronize from GitHub repository to AWS CodeCommit via GitHub Actions.  
 No need to ssh-private-key. Need to AWS IAM Credentials only.
 
+Thanks to [tsgit18](https://github.com/tsgit18) and [youyo](https://github.com/youyo) for original code.
+
 ## Prerequisities
 
 To use this Github Action, you first need to create a new Identity Provider in the IAM portal and a role that you assign the `AWSCodeCommitFullAccess` right to.
