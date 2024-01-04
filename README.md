@@ -42,6 +42,7 @@ jobs:
 
 - `repository_name` **Required** CodeCommit repository name.
 - `aws_region` **Required** Region of the CodeCommit repository.
+- `branch_name` **Required** Specific branch to sync.
 
 ## License
 
