@@ -36,6 +36,7 @@ jobs:
         with:
           repository_name: test_repo
           aws_region: us-east-1
+          branch_name: master
 ```
 
 ## Inputs
