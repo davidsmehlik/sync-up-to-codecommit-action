@@ -13,7 +13,8 @@ inputs:
     required: true
   branch_name:
     description: Specific branch to sync.
-    required: true
+    required: false
+    default: '--mirror'
 runs:
   using: 'docker'
   image: './Dockerfile'
